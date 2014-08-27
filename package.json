@@ -1,0 +1,31 @@
+{
+  "name": "watching",
+  "version": "0.0.1",
+  "description": "watching",
+  "bin": {
+    "watching": "./bin/watching",
+    "watch": "./bin/watching"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xudafeng/watching.git"
+  },
+  "dependencies": {
+    "watch": "0.11.0",
+    "commander": "*",
+    "colorx": "*"
+  },
+  "keywords": ["watching"],
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "homepage": "https://github.com/xudafeng/watching",
+  "author": "xudafeng",
+  "email": "xudafeng[at]126.com",
+  "blog": "http://xdf.me",
+  "license": "MIT"
+}
